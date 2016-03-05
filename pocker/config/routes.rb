@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   get 'pocker/index'
 
-  get 'pocker/show'
+  # get 'pocker/show'
+  post 'pocker/show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
