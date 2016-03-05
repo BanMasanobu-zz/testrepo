@@ -1,10 +1,11 @@
 <h1>Pocker#index</h1>
 <p>Find me in app/views/pocker/index.html.erb</p>
-<form method="post" action="/pocker/index">
+<form method="post" action="/pocker/show">
   <table>
     <tr>
-      <th>Name:</th>
-      <td><input type="text" name="name"></td>
+      <th>Card:</th>
+      <td><input type="text" name="cards"></td>
     </tr>
   </table>
+  <%= button_to "役の判定", :action => "show" %>
 </form>

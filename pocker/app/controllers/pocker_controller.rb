@@ -3,5 +3,7 @@ class PockerController < ApplicationController
   end
 
   def show
+   poker = Poker.new
+   @hand = poker.poker_hand(params[:cards])
   end
 end
